@@ -15,6 +15,7 @@ Thumbs.db
 /JuceLibraryCode/juce_*.cpp
 /JuceLibraryCode/juce_*.h
 /JuceLibraryCode/include_juce_*.cpp
+/JuceLibraryCode/
 
 # Build directories
 /Builds/*/build/
@@ -29,6 +30,7 @@ Thumbs.db
 /Builds/Xcode/
 /Builds/CodeBlocks/
 /Builds/AndroidStudio/
+/Builds/
 
 # Exporter files (auto-generated)
 /Builds/*.workspace

@@ -1,0 +1,77 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Compiled object files and libraries
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+*.lib
+*.a
+
+# JUCE Build files
+/JuceLibraryCode/juce_*.cpp
+/JuceLibraryCode/juce_*.h
+/JuceLibraryCode/include_juce_*.cpp
+
+# Build directories
+/Builds/*/build/
+/Builds/*/bin/
+/Builds/*/intermediate/
+
+/Builds/LinuxMakefile/build/
+/Builds/LinuxMakefile/intermediate/
+/Builds/LinuxMakefile/Makefile
+
+/Builds/VisualStudio/
+/Builds/Xcode/
+/Builds/CodeBlocks/
+/Builds/AndroidStudio/
+
+# Exporter files (auto-generated)
+/Builds/*.workspace
+/Builds/*.xcodeproj
+/Builds/*.sln
+/Builds/*.vcxproj
+/Builds/*.vcxproj.filters
+/Builds/*.codelite
+/Builds/*.cbp
+
+# IDE-specific files
+*.idea
+*.vscode
+
+# Logs
+*.log
+
+# Backups
+*.bak
+*.swp
+*.tmp
+
+# Projucer auto-generated files
+*.jucer.backup
+
+# Audio plug-in files
+*.vst
+*.vst3
+*.component
+*.aaxplugin
+*.dll
+*.lv2
+
+# Cache files
+*.cache
+*.obj
+*.pch
+*.pdb
+*.ipch
+
+# OS-specific
+*.DS_Store
+*.directory
+*.Trash
+*.Spotlight-V100
+*.DocumentRevisions-V100
